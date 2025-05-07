@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderly - Amintiri din Călătorii</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <!-- Lightbox2 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/assets/img/logo.png" alt="Logo Wanderly" width="30" height="30" class="me-2" />
+        Wanderly
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item"><a class="nav-link" href="#about">Despre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Funcții</a></li>
+            <li class="nav-item"><a class="nav-link" href="#release">Noutăți</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Galerie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#survey">Sondaj</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-white text-center">
+    <div class="container">
+      <h1 class="display-4">Planifică, Explorează, Păstrează Amintiri</h1>
+      <p class="lead">Cu Wanderly, fiecare călătorie devine o poveste memorabilă.</p>
+      <a href="#about" class="btn btn-light mt-3">Află mai mult</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2 class="mb-4 fw-bold">Ce este Wanderly?</h2>
+          <p class="text-muted fs-5 lh-lg mb-3">
+            Wanderly este aplicația mobilă care dă viață amintirilor din călătorii.
+            Creează albume foto personalizate, descoperă locuri vizitate pe o hartă interactivă și primește recomandări prin chat AI.
+          </p>
+          <p class="text-muted fs-5 lh-lg mb-4">
+            Planifică opriri, împărtășește-ți momentele și adaugă amintiri zilnic.
+            Cu Wanderly, fiecare zi devine parte dintr-o aventură memorabilă.
+          </p>
+          <a href="#" class="btn-wanderly">Descarcă</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="/assets/img/travel.png" alt="Preview aplicație" class="img-fluid about-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Features -->
+<section id="features" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Funcționalități cheie</h2>
+
+    <div id="featureCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/markers.png" class="mb-3 feature-img" alt="Harta">
+              <h5>Hartă & Glob interactiv</h5>
+              <p>Vezi toate locurile vizitate.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/ai.png" class="mb-3 feature-img" alt="Chat AI">
+              <h5>Chat AI cu recomandări</h5>
+              <p>Obține sugestii despre locuri de vizitat.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/albume.png" class="mb-3 feature-img" alt="Albume">
+              <h5>Albume foto</h5>
+              <p>Organizează pozele pe destinații.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/todo.png" class="mb-3 feature-img" alt="To-Do">
+              <h5>Liste To-Do</h5>
+              <p>Planifică activități pentru fiecare locație.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/friends.png" class="mb-3 feature-img" alt="Prieteni">
+              <h5>Prieteni</h5>
+              <p>Adaugă prieteni și vezi ce amintiri postează.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="/assets/img/reminder.png" class="mb-3 feature-img" alt="Reminder">
+              <h5>Remindere</h5>
+              <p>Primești notificări zilnice pentru a adăuga amintiri.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Sub-feature Section -->
+<section id="release" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Noutăți în Wanderly</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="/assets/img/update.png" class="img-fluid rounded-3 shadow-sm" alt="New Release" />
+      </div>
+      <div class="col-md-6">
+        <h4 class="mb-3">Wanderly Premium – Disponibil în curând</h4>
+        <ul class="fs-5 text-muted">
+          <li>Acces la <strong>teme exclusive</strong> pentru personalizarea aplicației</li>
+          <li>Funcționalitate de <strong>export al jurnalului de călătorii</strong> sub formă de album foto digital</li>
+          <li>Achiziții în aplicație: <strong>filtre foto și stickere</strong> pentru albume</li>
+        </ul>
+        <p class="mt-3">Actualizarea va fi disponibilă pentru abonații Wanderly Premium. Rămâi conectat pentru lansare!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Galerie -->
+<section id="gallery" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Preview</h2>
+    <div class="row justify-content-center g-2">
+
+      <div class="col-6 col-md-3 d-flex justify-content-center">
+        <a href="/assets/img/app-preview.jpg" data-lightbox="wanderly-gallery" data-title="Ecran 1">
+          <img src="/assets/img/app-preview.jpg" class="img-fluid rounded gallery-thumb-lg" alt="Ecran 1">
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 d-flex justify-content-center">
+        <a href="/assets/img/profile_page.png" data-lightbox="wanderly-gallery" data-title="Profil">
+          <img src="/assets/img/profile_page.png" class="img-fluid rounded gallery-thumb-lg" alt="Profil">
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 d-flex justify-content-center">
+        <a href="/assets/img/timbrepage.png" data-lightbox="wanderly-gallery" data-title="Timbre">
+          <img src="/assets/img/timbrepage.png" class="img-fluid rounded gallery-thumb-lg" alt="Timbre">
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 d-flex justify-content-center">
+        <a href="/assets/img/journeys_page.png" data-lightbox="wanderly-gallery" data-title="Călătorii">
+          <img src="/assets/img/journeys_page.png" class="img-fluid rounded gallery-thumb-lg" alt="Journeys">
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Survey -->
+<section id="survey" class="py-5 bg-white text-center">
+  <div class="container">
+    <h2 class="mb-4">Participă la sondaj</h2>
+    <p class="fs-5 text-muted mb-4">Ajută-ne să înțelegem cât de utilă ar fi aplicația Wanderly pentru tine.</p>
+
+    <div class="ratio ratio-4x3" style="max-width: 900px; margin: 0 auto;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSep-e5QjPuAScMico0bW9W7TWP-e48WdnyCtqN6XZHE5CVSxQ/viewform?embedded=true"
+              width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Se încarcă...</iframe>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-light text-black">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center text-muted fs-5 mb-4">
+      Dacă ai întrebări, scrie-ne la:
+      <a href="mailto:contact@wanderly.app">contact@wanderly.app</a>
+    </p>
+
+    <form action="https://formsubmit.co/andreeacarminadeaconu@gmail.com" method="POST" class="row g-3">
+
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="hidden" name="_next" value="http://localhost:8080/#contact">
+
+      <div class="col-md-6">
+        <input type="text" name="nume" class="form-control" placeholder="Nume" required />
+      </div>
+      <div class="col-md-6">
+        <input type="email" name="email" class="form-control" placeholder="Email" required />
+      </div>
+      <div class="col-12">
+        <textarea name="mesaj" class="form-control" rows="4" placeholder="Mesajul tău..." required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn-wanderly">Trimite</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <div class="container">&copy; 2025 Wanderly. Toate drepturile rezervate.</div>
+  </footer>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<!-- Custom Script -->
+<script src="/js/script.js"></script>
+
+</body>
+</html>
